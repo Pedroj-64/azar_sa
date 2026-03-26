@@ -1,0 +1,29 @@
+{
+  "compras": [],
+  "premios": [
+    {
+      "created_at": "2026-03-05T00:00:00Z",
+      "ganadores": [],
+      "id": "premio_003",
+      "nombre": "Premio Mayor",
+      "numero_ganador": null,
+      "sorteo_id": "sorteo_002",
+      "valor": 1000000000
+    }
+  ],
+  "sorteo": {
+    "cantidad_billetes": 2000,
+    "cantidad_fracciones": 10,
+    "created_at": "2026-03-05T00:00:00Z",
+    "estado": "pendiente",
+    "fecha": "2026-04-20",
+    "id": "sorteo_002",
+    "nombre": "Lotería de Bogotá",
+    "numeros_ganadores": [],
+    "premios": [
+      "premio_003"
+    ],
+    "updated_at": "2026-03-05T00:00:00Z",
+    "valor_billete": 75000
+  }
+}

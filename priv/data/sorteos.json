@@ -1,0 +1,55 @@
+[
+  {
+    "cantidad_billetes": 1000,
+    "cantidad_fracciones": 5,
+    "created_at": "2026-03-01T00:00:00Z",
+    "estado": "pendiente",
+    "fecha": "2026-04-15",
+    "id": "sorteo_001",
+    "nombre": "Lotería de Medellín",
+    "numeros_ganadores": [],
+    "premios": [
+      "premio_001",
+      "premio_002"
+    ],
+    "updated_at": "2026-03-01T00:00:00Z",
+    "valor_billete": 50000
+  },
+  {
+    "cantidad_billetes": 2000,
+    "cantidad_fracciones": 10,
+    "created_at": "2026-03-05T00:00:00Z",
+    "estado": "pendiente",
+    "fecha": "2026-04-20",
+    "id": "sorteo_002",
+    "nombre": "Lotería de Bogotá",
+    "numeros_ganadores": [],
+    "premios": [
+      "premio_003"
+    ],
+    "updated_at": "2026-03-05T00:00:00Z",
+    "valor_billete": 75000
+  },
+  {
+    "cantidad_billetes": 500,
+    "cantidad_fracciones": 3,
+    "created_at": "2026-02-15T00:00:00Z",
+    "estado": "realizado",
+    "fecha": "2026-03-10",
+    "id": "sorteo_003",
+    "nombre": "Lotería del Valle",
+    "numeros_ganadores": [
+      {
+        "numero": 123,
+        "premio_id": "premio_004",
+        "premio_nombre": "Premio Mayor",
+        "valor": 100000000
+      }
+    ],
+    "premios": [
+      "premio_004"
+    ],
+    "updated_at": "2026-03-10T00:00:00Z",
+    "valor_billete": 30000
+  }
+]

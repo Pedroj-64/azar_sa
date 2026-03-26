@@ -1,0 +1,63 @@
+{
+  "compras": [
+    {
+      "cliente_id": "cliente_003",
+      "created_at": "2026-02-20T00:00:00Z",
+      "estado": "ganadora",
+      "fracciones": [
+        1,
+        2,
+        3
+      ],
+      "id": "compra_003",
+      "numero": 123,
+      "premio_obtenido": 100000000,
+      "sorteo_id": "sorteo_003",
+      "tipo": "billete_completo",
+      "valor_pagado": 30000
+    }
+  ],
+  "premios": [
+    {
+      "created_at": "2026-02-15T00:00:00Z",
+      "ganadores": [
+        {
+          "cliente_id": "cliente_003",
+          "fracciones": [
+            1,
+            2,
+            3
+          ],
+          "tipo": "billete_completo"
+        }
+      ],
+      "id": "premio_004",
+      "nombre": "Premio Mayor",
+      "numero_ganador": 123,
+      "sorteo_id": "sorteo_003",
+      "valor": 100000000
+    }
+  ],
+  "sorteo": {
+    "cantidad_billetes": 500,
+    "cantidad_fracciones": 3,
+    "created_at": "2026-02-15T00:00:00Z",
+    "estado": "realizado",
+    "fecha": "2026-03-10",
+    "id": "sorteo_003",
+    "nombre": "Lotería del Valle",
+    "numeros_ganadores": [
+      {
+        "numero": 123,
+        "premio_id": "premio_004",
+        "premio_nombre": "Premio Mayor",
+        "valor": 100000000
+      }
+    ],
+    "premios": [
+      "premio_004"
+    ],
+    "updated_at": "2026-03-10T00:00:00Z",
+    "valor_billete": 30000
+  }
+}

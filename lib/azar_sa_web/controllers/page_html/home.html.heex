@@ -1,0 +1,124 @@
+<.flash_group flash={@flash} />
+
+<div class="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute inset-0">
+      <div class="absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
+      <div class="absolute top-40 right-20 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse" style="animation-delay: 1s;"></div>
+      <div class="absolute bottom-20 left-1/2 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse" style="animation-delay: 2s;"></div>
+    </div>
+    
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <div class="text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight">
+          <span class="block">AZAR</span>
+          <span class="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-500">S.A.</span>
+        </h1>
+        <p class="mt-6 max-w-lg mx-auto text-xl text-gray-300">
+          Sistema de Lotería y Sorteos
+        </p>
+        <p class="mt-2 text-gray-400">
+          Desarrollado con Elixir & Phoenix Framework
+        </p>
+        
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/login" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-purple-900 bg-white hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-lg">
+            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+            </svg>
+            Iniciar Sesion
+          </a>
+          <a href="/admin" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-purple-900 transform hover:scale-105 transition-all duration-200">
+            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            Panel de Administracion
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="relative py-16 bg-black bg-opacity-30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-white">Sistema Distribuido de Loteria</h2>
+        <p class="mt-4 text-gray-400">Arquitectura OTP con Elixir</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Feature 1 -->
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6 border border-white border-opacity-20">
+          <div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-2">Gestion de Sorteos</h3>
+          <p class="text-gray-400">Crea y administra sorteos con premios, billetes y fracciones. Sistema completo de loteria.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6 border border-white border-opacity-20">
+          <div class="w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-2">Clientes & Jugadores</h3>
+          <p class="text-gray-400">Sistema de registro, autenticacion y notificaciones en tiempo real para jugadores.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6 border border-white border-opacity-20">
+          <div class="w-12 h-12 bg-indigo-500 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-2">Balance & Reportes</h3>
+          <p class="text-gray-400">Control de ingresos, premios entregados y balance general con bitacora de operaciones.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tech Stack -->
+  <div class="relative py-12 bg-black bg-opacity-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap justify-center items-center gap-8 text-gray-400">
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">Elixir</span>
+        </div>
+        <div class="text-3xl text-gray-600">|</div>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">Phoenix</span>
+        </div>
+        <div class="text-3xl text-gray-600">|</div>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">LiveView</span>
+        </div>
+        <div class="text-3xl text-gray-600">|</div>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">OTP</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="relative py-8 bg-black bg-opacity-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-gray-500">
+        Proyecto de Programacion III - Sistema Distribuido con Elixir
+      </p>
+      <p class="mt-2 text-gray-600 text-sm">
+        Azar S.A. - Sistema de Loteria
+      </p>
+    </div>
+  </footer>
+</div>

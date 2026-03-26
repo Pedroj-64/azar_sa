@@ -1,0 +1,44 @@
+[
+  {
+    "created_at": "2026-01-01T00:00:00Z",
+    "documento": "1234567890",
+    "id": "cliente_001",
+    "nombre": "Juan Pérez",
+    "notificaciones": [],
+    "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "tarjeta_credito": {
+      "cvv": "123",
+      "numero": "4111111111111111",
+      "vencimiento": "12/28"
+    },
+    "updated_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "created_at": "2026-01-15T00:00:00Z",
+    "documento": "0987654321",
+    "id": "cliente_002",
+    "nombre": "María García",
+    "notificaciones": [],
+    "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "tarjeta_credito": {
+      "cvv": "456",
+      "numero": "4222222222222222",
+      "vencimiento": "06/27"
+    },
+    "updated_at": "2026-01-15T00:00:00Z"
+  },
+  {
+    "created_at": "2026-02-01T00:00:00Z",
+    "documento": "5555555555",
+    "id": "cliente_003",
+    "nombre": "Carlos López",
+    "notificaciones": [],
+    "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "tarjeta_credito": {
+      "cvv": "789",
+      "numero": "4333333333333333",
+      "vencimiento": "03/29"
+    },
+    "updated_at": "2026-02-01T00:00:00Z"
+  }
+]

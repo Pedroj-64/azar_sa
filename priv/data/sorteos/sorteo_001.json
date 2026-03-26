@@ -1,0 +1,73 @@
+{
+  "compras": [
+    {
+      "cliente_id": "cliente_001",
+      "created_at": "2026-03-10T00:00:00Z",
+      "estado": "activa",
+      "fracciones": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "id": "compra_001",
+      "numero": 777,
+      "premio_obtenido": null,
+      "sorteo_id": "sorteo_001",
+      "tipo": "billete_completo",
+      "valor_pagado": 50000
+    },
+    {
+      "cliente_id": "cliente_002",
+      "created_at": "2026-03-11T00:00:00Z",
+      "estado": "activa",
+      "fracciones": [
+        1,
+        2
+      ],
+      "id": "compra_002",
+      "numero": 123,
+      "premio_obtenido": null,
+      "sorteo_id": "sorteo_001",
+      "tipo": "fraccion",
+      "valor_pagado": 20000
+    }
+  ],
+  "premios": [
+    {
+      "created_at": "2026-03-01T00:00:00Z",
+      "ganadores": [],
+      "id": "premio_001",
+      "nombre": "Premio Mayor",
+      "numero_ganador": null,
+      "sorteo_id": "sorteo_001",
+      "valor": 500000000
+    },
+    {
+      "created_at": "2026-03-01T00:00:00Z",
+      "ganadores": [],
+      "id": "premio_002",
+      "nombre": "Segundo Premio",
+      "numero_ganador": null,
+      "sorteo_id": "sorteo_001",
+      "valor": 100000000
+    }
+  ],
+  "sorteo": {
+    "cantidad_billetes": 1000,
+    "cantidad_fracciones": 5,
+    "created_at": "2026-03-01T00:00:00Z",
+    "estado": "pendiente",
+    "fecha": "2026-04-15",
+    "id": "sorteo_001",
+    "nombre": "Lotería de Medellín",
+    "numeros_ganadores": [],
+    "premios": [
+      "premio_001",
+      "premio_002"
+    ],
+    "updated_at": "2026-03-01T00:00:00Z",
+    "valor_billete": 50000
+  }
+}
